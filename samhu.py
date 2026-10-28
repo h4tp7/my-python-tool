@@ -73,7 +73,7 @@ def get_bot_token():
     return input(f"{WHITE}Enter Telegram Bot Token: {RESET}").strip()
 
 
-def check_access(chat_id, raw_list):
+def check_access(8366772367,2026-12-31 : 23:59):
     now_ist = (datetime.now(timezone.utc) + IST_OFFSET).replace(tzinfo=None)
     for line in raw_list.splitlines():
         line = line.strip()
@@ -96,7 +96,7 @@ def check_access(chat_id, raw_list):
             pretty = f"{days}d {hours}h {minutes}m"
             return True, f"{GREEN}✅ Authorized — expires in {pretty}{RESET}", pretty
         return False, f"{RED}⛔ Access expired.{RESET}", None
-    return False, f"{RED}⛔ Chat ID not found in access list.{RESET}", None
+    return False, f"{RED}⛔ 8366772367,2026-12-31 : 23:59{RESET}", None
 
 
 def inject_inputs(src, chat_id, bot_token):
