@@ -73,7 +73,7 @@ def get_bot_token():
     return input(f"{WHITE}Enter Telegram Bot Token: {RESET}").strip()
 
 
-def check_access(8366772367,2026-12-31 : 23:59):
+def check_access(def check_access(chat_id, raw_list):):
     now_ist = (datetime.now(timezone.utc) + IST_OFFSET).replace(tzinfo=None)
     for line in raw_list.splitlines():
         line = line.strip()
