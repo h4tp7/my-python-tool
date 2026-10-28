@@ -17,7 +17,7 @@ for pkg in ["requests"]:
 
 import requests
 
-ACCESS_LIST_URL = "https://raw.githubusercontent.com/samkushwah61-create/sam-acces/main/expiry.txt"
+ACCESS_LIST_URL = "https://raw.githubusercontent.com/h4tp7/my-python-tool/main/expiry.txt"
 IST_OFFSET = timedelta(hours=5, minutes=30)
 
 GOLD   = '\x1b[38;5;220m'
